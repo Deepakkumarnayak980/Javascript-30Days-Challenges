@@ -6,7 +6,6 @@ const personName = `Deepak`;
 const personAge = 24;
 console.log(`Name of the person is "${personName}" and he is ${personAge} years old.`);
 
-
 // ---> Task-2 <----
 const multiLineString = `This is a string
 that spans multiple
@@ -54,7 +53,8 @@ const books = [
 const existingArray =[1,2,3,4,5]
 
 const newArray = [...existingArray,5,6,7,8]
-console.log(newArray);
+console.log("New array which includes all elements from this", existingArray, "array and some extra elements", newArray);
+
 
 
 
@@ -64,3 +64,34 @@ function calculatePrice (... num1){
     return num1.reduce((total ,num ) =>(total+num,0))
 }
 console.log(calculatePrice(1,2,3,4,5));
+
+
+// ===============Activity-4 ==============//
+
+// -------->Task-7 <--------------
+
+
+function num(a, b = 1) {
+    return a * b;
+}
+
+console.log(num(4, 5));
+
+//================= Activity-4 =============== //
+// --> task - 8 <--
+const name = "Anirudha";
+const age = 22;
+const status = "Unmarried";
+
+const myDetails = { name, age, status };
+console.log(myDetails);
+
+// --> task - 9 <--
+let x = 10;
+let i = 0
+const computedObjectProperties = {
+    [`${x - x}`]: x * i,
+    [`${x - x + (++i)}`]: x * i,
+    [`${x - x + (++i)}`]: x * i,
+}
+console.log(computedObjectProperties);

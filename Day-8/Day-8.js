@@ -6,6 +6,7 @@ const personName = `Deepak`;
 const personAge = 24;
 console.log(`Name of the person is "${personName}" and he is ${personAge} years old.`);
 
+
 // ---> Task-2 <----
 const multiLineString = `This is a string
 that spans multiple

@@ -8,6 +8,7 @@
 </p>
 
 - [JavaScript Mastery](#javascript-mastery)
+- .[js](#js)
   - [Day 1: Variables and Data Types](#day-1-variables-and-data-types)
   - [Day 2: Operators](#day-2-operators)
   - [Day 3: Control Structures](#day-3-control-structures)
